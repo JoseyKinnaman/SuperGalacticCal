@@ -1,9 +1,9 @@
-import { mercCalc } from "./../src/superGalCal.js";
+import { ageCalulator } from "./../src/superGalCal.js";
 
-describe('ageCalculator', () => {
+describe('ageCalulator', () => {
 
-  Test('should correctly create an age calculator object',() => {
-    let mercAge = new mercCalc (34);
-    expect(mercAge).toEqual(141)
+  test('should correctly create an age class and constructor',() => {
+    let age = new ageCalulator (34);
+    expect(age).toEqual(141);
   });
 });
