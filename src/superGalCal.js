@@ -3,11 +3,9 @@ export class ageCalulator {
       this.age = age;
     }
     mercCalc() {
-      let age =this.age;
-      let mercAge = Math.floor(age / .24);
+      let age = this.age;
+      let mercAge = Math.floor(age / 0.24);
       return mercAge;
-
     }
-       
-
+    
   }
