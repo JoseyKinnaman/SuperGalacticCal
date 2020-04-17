@@ -31,16 +31,16 @@ https://jozypants.github.io/SuperGalacticCal/
 * The program returns a user's age age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
   input: 34
   output: 2
-* The program calculates the user’s life expectancy.
+* The program calculates the user’s remaining years on earth from life expectancy (78.6).
   input: 34
-  output: 
+  output: 44
 * The program determines how many years a user has left to live on each planet. 
-  input: 34
-  output Mercury:
-  output Venus:
-  output Mars:
-  output Jupiter:
-  
+  input: 44 (years remaining on Earth)
+  output Mercury: 209
+  output Venus: 70
+  output Mars: 23
+  output Jupiter: 3
+
 
 ## Known Bugs
 
