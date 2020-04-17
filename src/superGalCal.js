@@ -18,8 +18,8 @@ export class ageCalulator {
       return marsAge;
     }
     jupCalc() {
-      // let age =this.age;
-      // let jupAge = Math.floor(age / 11.86);
-      // return jupAge;
+      let age =this.age;
+      let jupAge = Math.floor(age / 11.86);
+      return jupAge;
     }
 }
