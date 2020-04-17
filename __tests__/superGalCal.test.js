@@ -55,5 +55,11 @@ describe('ageCalulator', () => {
     expect(marsTime).toEqual(23);
   });
 
+  test("should correctly deterimine how many years a user has left to live on Jupiter", () => {
+    let newAge = new ageCalulator(34);
+    let jupTime = newAge.jupYears();
+    expect(jupTime).toEqual(3);
+  });
+
 });
 

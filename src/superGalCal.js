@@ -49,4 +49,8 @@ export class ageCalulator {
       let marslife = Math.floor(this.lifeLeft() / 1.88);
       return marslife;
     }
+
+    jupYears() {
+      
+    }
 }
