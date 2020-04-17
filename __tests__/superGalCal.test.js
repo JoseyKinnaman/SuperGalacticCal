@@ -39,9 +39,8 @@ describe('ageCalulator', () => {
 
   test("should correctly deterimine how many yeats a user has left to live on Mercury", () => {
     let newAge = new ageCalulator(34);
-    let yearsLeft = newAge.lifeLeft();
-    let mercYears = yearsLeft.mercLeft();
-    expect(mercYears).toEqual(209);
+    let mercTime = newAge.mercYears();
+    expect(mercTime).toEqual(183);
   })
-  
 });
+

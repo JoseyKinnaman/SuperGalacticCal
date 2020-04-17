@@ -24,14 +24,13 @@ export class ageCalulator {
     }
     lifeLeft() {
       let age = this.age;
-      const lifeExpect = 78.6;
+      const lifeExpect = 78;
       let yearsLeft = Math.floor(lifeExpect - age);
       return yearsLeft;
     }
-    mercLeft(){
-      let age = this.age;
-      let yearsLeft = age.lifeLeft();
-      let mercYears = Math.floor(yearsLeft/ 0.24);
-      return mercYears;
+
+    mercYears() {
+      let mercLife = Math.floor(this.lifeLeft() / 0.24);
+      return mercLife;
     }
 }

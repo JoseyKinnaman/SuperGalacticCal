@@ -36,7 +36,7 @@ https://jozypants.github.io/SuperGalacticCal/
   output: 44
 * The program determines how many years a user has left to live on each planet. 
   input: 44 (years remaining on Earth)
-  output Mercury: 209
+  output Mercury: 183
   output Venus: 70
   output Mars: 23
   output Jupiter: 3
