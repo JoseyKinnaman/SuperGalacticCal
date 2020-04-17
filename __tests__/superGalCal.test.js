@@ -12,4 +12,10 @@ describe('ageCalulator', () => {
     var mercAge = newAge.mercCalc();
     expect(mercAge).toEqual(141);
   })
+
+  test("should correctly return a user's age in Venus years", () => {
+    let newAge = new ageCalulator(34);
+    var venusAge = newAge.venusCalc();
+    expect(venusAge).toEqual();
+  });
 });
