@@ -3,6 +3,7 @@ import { mercCalc } from "./../src/superGalCal.js";
 describe('ageCalculator', () => {
 
   Test('should correctly create an age calculator object',() => {
-    let age = new mercCalc (1/23/1986)
-  })
-})
+    let mercAge = new mercCalc (34);
+    expect(mercAge).toEqual(141)
+  });
+});
