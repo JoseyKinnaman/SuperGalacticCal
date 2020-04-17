@@ -37,10 +37,16 @@ describe('ageCalulator', () => {
     expect(yearsLeft).toEqual(44);
   })
 
-  test("should correctly deterimine how many yeats a user has left to live on Mercury", () => {
+  test("should correctly deterimine how many years a user has left to live on Mercury", () => {
     let newAge = new ageCalulator(34);
     let mercTime = newAge.mercYears();
     expect(mercTime).toEqual(183);
   })
+
+  test("should correctly deterimine how many years a user has left to live on Venus", () => {
+    let newAge = new ageCalulator(34);
+    let venusTime = newAge.venusYears();
+    expect(venusTime).toEqual(70);
+  });
 });
 
