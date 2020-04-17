@@ -1,3 +1,1 @@
-export class Calculator {
-
-}
+export class mercCalc {}
