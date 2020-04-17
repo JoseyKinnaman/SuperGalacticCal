@@ -12,4 +12,9 @@ export class ageCalulator {
       let venusAge = Math.floor(age / 0.62);
       return venusAge;
     }
+    marsCalc() {
+      let age = this.age;
+      let marsAge = Math.floor(age / 1.88);
+      return marsAge;
+    }
 }
