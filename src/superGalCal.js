@@ -33,4 +33,16 @@ export class ageCalulator {
       let mercLife = Math.floor(this.lifeLeft() / 0.24);
       return mercLife;
     }
+    mercYears() {
+      let mercLife = Math.floor(this.lifeLeft() / 0.24);
+      return mercLife;
+    }
+    mercYears() {
+      let mercLife = Math.floor(this.lifeLeft() / 0.24);
+      return mercLife;
+    }
+    venusYears() {
+      let venusLife = Math.floor(this.lifeLeft()/ .62);
+      return venusLife;
+    }
 }
