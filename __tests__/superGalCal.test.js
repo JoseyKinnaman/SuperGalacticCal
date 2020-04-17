@@ -24,4 +24,10 @@ describe('ageCalulator', () => {
     let marsAge = newAge.marsCalc();
     expect(marsAge).toEqual(18);
   })
+
+  test("should correctly return a user's age in Jupiter years", ()=>{
+    let newAge = new ageCalulator(34);
+    let jupAge = newAge.jupCalc();
+    expect(jupAge).toEqual(2);
+  })
 });
