@@ -8,6 +8,6 @@ $(document).ready(function () {
     event.preventDefault();
     let userInput= $("#age").val();
    
-  // newAge = new ageCalculator;
+  newAge = new ageCalculator;
   });
 });
