@@ -30,4 +30,10 @@ describe('ageCalulator', () => {
     let jupAge = newAge.jupCalc();
     expect(jupAge).toEqual(2);
   })
+
+  test("should correctly return the user's remaining years on earth.", () =>{
+    let newAge = new ageCalulator(34);
+    let yearsLeft = newAge.lifeLect();
+    expect(yearsLeft).toEqual(44);
+  })
 });
