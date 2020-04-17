@@ -33,7 +33,7 @@ describe('ageCalulator', () => {
 
   test("should correctly return the user's remaining years on earth.", () =>{
     let newAge = new ageCalulator(34);
-    let yearsLeft = newAge.lifeLect();
+    let yearsLeft = newAge.lifeLeft();
     expect(yearsLeft).toEqual(44);
   })
 });
