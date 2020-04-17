@@ -47,6 +47,13 @@ describe('ageCalulator', () => {
     let newAge = new ageCalulator(34);
     let venusTime = newAge.venusYears();
     expect(venusTime).toEqual(70);
+  })
+
+  test("should correctly deterimine how many years a user has left to live on Mars", () => {
+    let newAge = new ageCalulator(34);
+    let marsTime = newAge.marsYears();
+    expect(marsTime).toEqual(23);
   });
+
 });
 

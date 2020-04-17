@@ -42,7 +42,11 @@ export class ageCalulator {
       return mercLife;
     }
     venusYears() {
-      let venusLife = Math.floor(this.lifeLeft()/ .62);
+      let venusLife = Math.floor(this.lifeLeft() / .62);
       return venusLife;
+    }
+    marsYears() {
+      let marslife = Math.floor(this.lifeLeft() / 1.88);
+      return marslife;
     }
 }
