@@ -10,9 +10,11 @@ _An application that determines a user’s age based on a planet’s solar years
 
 ## Setup/Installation Requirements
 
-*Clone or download from https://github.com/Jozypants/SuperGalacticCal.git.
-*Open index.html in web browser.
-* Input a your age.
+* Clone or download from https://github.com/Jozypants/SuperGalacticCal.git.
+* Run $ npm install to download necessary dependencies. 
+* Run $ npm run build to create a dist folder with a bundle.js file.
+* Open index.html in web browser or create server.
+* Input your age.
 https://jozypants.github.io/SuperGalacticCal/
 
 ## Specs ##
