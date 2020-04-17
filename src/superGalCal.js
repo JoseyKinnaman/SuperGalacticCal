@@ -28,4 +28,10 @@ export class ageCalulator {
       let yearsLeft = Math.floor(lifeExpect - age);
       return yearsLeft;
     }
+    mercLeft(){
+      let age = this.age;
+      let yearsLeft = age.lifeLeft();
+      let mercYears = Math.floor(yearsLeft/ 0.24);
+      return mercYears;
+    }
 }

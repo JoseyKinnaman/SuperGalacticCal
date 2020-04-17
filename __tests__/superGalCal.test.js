@@ -31,9 +31,17 @@ describe('ageCalulator', () => {
     expect(jupAge).toEqual(2);
   })
 
-  test("should correctly return the user's remaining years on earth.", () =>{
+  test("should correctly return the user's remaining years on earth.", () => {
     let newAge = new ageCalulator(34);
     let yearsLeft = newAge.lifeLeft();
     expect(yearsLeft).toEqual(44);
   })
+
+  test("should correctly deterimine how many yeats a user has left to live on Mercury", () => {
+    let newAge = new ageCalulator(34);
+    let yearsLeft = newAge.lifeLeft();
+    let mercYears = yearsLeft.mercLeft();
+    expect(mercYears).toEqual(209);
+  })
+  
 });
