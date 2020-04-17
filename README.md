@@ -16,12 +16,31 @@ _An application that determines a user’s age based on a planet’s solar years
 https://jozypants.github.io/SuperGalacticCal/
 
 ## Specs ##
+* User can enter their age.
+  input: 34
+  output: 34
 * The program returns a user's age in Mercury years. (A Mercury year is .24 Earth years.)
+  input:34
+  output: 141
 * The program returns a user's age in Venus years. (A Venus year is .62 Earth years.)
+  input: 34
+  output: 54
 * The program returns a user's ageage in Mars years. (A Mars year is 1.88 Earth years.)
+  input: 34
+  output: 18
 * The program returns a user's age age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
+  input: 34
+  output: 2
 * The program calculates the user’s life expectancy.
+  input: 34
+  output: 
 * The program determines how many years a user has left to live on each planet. 
+  input: 34
+  output Mercury:
+  output Venus:
+  output Mars:
+  output Jupiter:
+  
 
 ## Known Bugs
 
