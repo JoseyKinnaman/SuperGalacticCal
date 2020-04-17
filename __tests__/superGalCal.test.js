@@ -18,4 +18,10 @@ describe('ageCalulator', () => {
     var venusAge = newAge.venusCalc();
     expect(venusAge).toEqual(54);
   });
+
+  test("should correctly return a user's age in Mars years", () => {
+    let newAge = new ageCalulator(34);
+    let marsAge = newAge.marsCalc();
+    expect(marsAge).toEqual(18);
+  })
 });
